@@ -1,0 +1,357 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0% 17%;
+}
+
+.header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  padding:1% 17%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+
+}
+
+.header .navbar .navbar-header {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.header .navbar .navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.header .navbar .navbar-list li {
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.header .navbar .navbar-header:hover {
+  color: white;
+}
+
+.header .navbar .navbar-list li:hover {
+  color: white;
+}
+/* Header-Text */
+
+.header .header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15% 20%;
+  text-align: center;
+}
+.header .header-text .header-text-h3 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.red-hr {
+  border: none;
+  height: 3px;
+  width: 50px;
+  background-color: #f4623a;
+  margin: 2rem;
+}
+
+.header .header-text .header-text-h4 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.15rem;
+}
+
+.header .header-text .find {
+  background-color: #f4623a;
+  color: white;
+  padding: 20px 30px;
+  font-size: 1.1rem;
+  border-radius: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+}
+
+.header .header-text .find:hover {
+  background-color: #be4e2f;
+}
+
+/* Orange-side */
+.orange-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f4623a;
+  padding: 5% 20%;
+  text-align: center;
+}
+
+.orange-side .side-text-h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.orange-side .white-hr {
+  border: none;
+  height: 3px;
+  width: 50px;
+  background-color: white;
+  margin: 2rem;
+}
+
+.orange-side .side-text-h4 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+  font-weight: 500;
+  max-width: 75%;
+}
+
+.orange-side .get {
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  font-size: 0.9rem;
+  border-radius: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+  font-weight: 700;
+}
+
+/* Service */
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.service .service-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  gap: 30px;
+}
+.service .service-cards .service-card .card-head {
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+
+.service .service-cards .service-card .card-text {
+  color: rgba(71, 71, 71, 0.7);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.service .service-text-h3 {
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+.cards{
+  padding: 0;
+}
+.cards .cardsss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.cards .cardsss .card{
+  background-color: #f4623a;
+  width: 634.3px;
+  height: 345.53px;
+  cursor: pointer;
+  transition: 0.4s;
+  position: relative;
+}
+
+.cards .cardsss .card .card-text{
+  position: absolute;
+  top: 134px;
+  left: 252px;
+  text-align: center;
+  opacity: 0;
+}
+
+.cards .cardsss .card .card-text h5{
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.cards .cardsss .card .card-text h3{
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem
+}
+.cards .cardsss .card img{
+  width: 634.3px;
+  height: 345.53px;
+  transition: 0.4s;
+}
+
+.cards .cardsss .card:hover img{
+  opacity: 10%;
+}
+
+.cards .cardsss .card:hover .card-text{
+  opacity: 1;
+}
+
+.find{
+  background-color: #212529;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 20%;
+  text-align: center;
+}
+
+.find .find-text-h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.find .download{
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  font-size: 0.9rem;
+  border-radius: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+  font-weight: 700;
+}
+
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 20%;
+  text-align: center;
+}
+
+.input .input-text-h3 {
+  font-size: 2rem;
+  color: black;
+}
+
+
+.input .input-text-h4{
+  color: rgba(90, 88, 88, 0.7);
+  font-size: 1.1rem;
+  font-weight: 500;
+  max-width: 50%;
+}
+.input form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.input input{
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px 7px;
+  font-size: 1.1rem;
+  border: 1px solid rgb(170, 170, 170);
+  outline: none;
+  border-radius: 4px;
+}
+
+.input input:focus{
+  border: 1px solid red;
+  outline:3px solid rgba(255, 0, 0, 0.233)
+}
+
+.input textarea{
+  margin-top: 30px;
+  width: 100%;
+  height: 150px;
+  padding: 20px 7px;
+  font-size: 1.1rem;
+  border: 1px solid rgb(170, 170, 170);
+  outline: none;
+  border-radius: 4px;
+  resize: none;
+
+}
+
+.input textarea:focus{
+  border: 1px solid red;
+  outline:3px solid rgba(255, 0, 0, 0.233)
+}
+
+.input .submit{
+  background-color: #f4623a;
+  color: white;
+  padding: 20px 30px;
+  font-size: 1.1rem;
+  border-radius: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+  width: 50%;
+  margin-bottom: 7%;
+}
+
+.input .phone{
+  margin-top: 5px;
+}
+
+.footer{
+  background-color: rgb(238, 236, 236);
+  text-align: center;
+  padding: 3%;
+}
+
+.footer .footer-text{
+  color: gray;
+}
